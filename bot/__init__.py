@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @SLBotsOfficial
+# (c) @Azhagucutebot
 
 import os
 import logging
@@ -21,7 +21,7 @@ DB_URI = os.environ.get("DB_URI")
 
 USER_SESSION = os.environ.get("USER_SESSION")
 
-BUTTON = os.environ.get("BUTTON", "Channel - https://t.me/SLBotsOfficial")  # Button - link
+BUTTON = os.environ.get("BUTTON", "Channel - https://t.me/+QgeeWOFlnnhhYWE1")  # Button - link
 
 VERIFY = {}
 
