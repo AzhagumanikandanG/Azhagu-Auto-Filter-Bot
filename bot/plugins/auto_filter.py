@@ -46,7 +46,7 @@ async def auto_filter(bot, update):
         return
     
     allow_video = configs["types"]["video"]
-    allow_audio = configs["types"]["audio"] 
+    allow_link = configs["types"]["link"] 
     allow_document = configs["types"]["document"]
     
     max_pages = configs["configs"]["max_pages"] # maximum page result of a query
@@ -90,8 +90,8 @@ async def auto_filter(bot, update):
                 else:
                     continue
                 
-            elif file_type == "audio":
-                if allow_audio:
+            elif file_type == "link":
+                if allow_link:
                     pass
                 else:
                     continue
