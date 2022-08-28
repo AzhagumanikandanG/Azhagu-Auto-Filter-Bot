@@ -1,10 +1,10 @@
-# Telegram-Auto-Filter-Bot
+# Azhagu-Auto-Filter-Bot
 
 __Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its MongoDB And Reply You With The Message Link As A Button__
 
 ---
 
-### Follow [Tharuk Renuja](https://github.com/TR-TECH-GUIDE)
+### Follow [Tharuk Renuja](https://github.com/AzhagumanikandanG)
 #### PR's Are Very Welcome
 
 ---
@@ -60,7 +60,7 @@ You can deploy this bot anywhere.
 <details><summary><b>Deploy To Heroku</b></summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/TR-TECH-GUIDE/Telegram-Auto-Filter-Bot/tree/main">
+<a href="https://heroku.com/deploy?template=https://github.com/AzhagumanikandanG/Azhagu-Auto-Filter-Bot/tree/main">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -69,8 +69,8 @@ You can deploy this bot anywhere.
 <details><summary><b>Deploy To VPS</b></summary>
 <p>
 <pre>
-git clone https://github.com/TR-TECH-GUIDE/Telegram-Auto-Filter-Bot
-cd Telegram-Auto-Filter-Bot
+git clone https://github.com/AzhagumanikandanG/Azhagu-Auto-Filter-Bot
+cd Azhagu-Auto-Filter-Bot
 pip3 install -r requirements.txt
 # Change The Vars Of bot/__init__.py File Accordingly
 python3 -m bot
@@ -82,7 +82,7 @@ python3 -m bot
 
 ## Support
 
-Join Our [Telegram Group](https://www.telegram.me/trtechguide) For Support/Assistance And Our [Channel](https://www.telegram.me/SLBotsOfficial) For Updates.   
+Join Our [Telegram Group](https://telegram.me/+x4ex6PvS4qI4YTA9) For Support/Assistance And Our [Channel](https://www.telegram.me/@Azhagucutebot) For Updates.   
    
 Report Bugs There..   
 Do Fork And Star The Repository If You Liked It.
