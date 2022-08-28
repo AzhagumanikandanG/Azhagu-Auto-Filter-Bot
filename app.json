@@ -1,7 +1,7 @@
 {
     "name": "Auto Filter Bot V2",
     "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
-    "logo": "https://avatars.githubusercontent.com/u/88565605?s=400&u=ace2b3e67145a902cc2b821e649ce8acd259c296&v=4",
+    "logo": "https://drive.google.com/file/d/1WnSpdRtLK9sk1jAZpCwa4cc0uDOwwVcB/view?usp=sharing",
     "keywords": [
         "Auto",
         "Filter",
@@ -9,7 +9,7 @@
     ],
     "website": "https://github.com/TR-TECH-GUIDE",
     "repository": "https://github.com/TR-TECH-GUIDE/Adv-Auto-Filter-Bot-V2",
-    "success_url": "https://telegram.dog/Azhagucutebot",
+    "success_url": "https://telegram.dog/Azhagu",
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org",
