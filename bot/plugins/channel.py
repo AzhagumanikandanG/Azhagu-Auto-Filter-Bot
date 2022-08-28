@@ -90,7 +90,7 @@ async def connect(bot: Bot, update):
     wait_msg = await update.reply_text("Please Wait Till I Add All Your Files From Channel To Db\n\n<i>This May Take 10 or 15 Mins Depending On Your No. Of Files In Channel.....</i>\n\nUntil Then Please Dont Sent Any Other Command Or This Operation May Be Intrupted....")
     
     try:
-        type_list = ["video", "audio", "document"]
+        type_list = ["video", "link", "document"]
         data = []
         skipCT = 0
         
@@ -116,7 +116,7 @@ async def connect(bot: Bot, update):
                         file_size = msgs.video.file_size
                         file_type = "video"
                     
-                    elif msgs.audio:
+                    elif msgs.link:
                         try:
                             file_id = await bot.get_messages(channel_id, message_ids=msgs.message_id)
                         except FloodWait as e:
@@ -125,11 +125,11 @@ async def connect(bot: Bot, update):
                         except Exception as e:
                             print(e)
                             continue
-                        file_id = file_id.audio.file_id
-                        file_name = msgs.audio.file_name[0:-4]
+                        file_id = file_id.link.file_id
+                        file_name = msgs.link.file_name[0:-4]
                         file_caption  = msgs.caption if msgs.caption else ""
-                        file_size = msgs.audio.file_size
-                        file_type = "audio"
+                        file_size = msgs.link.file_size
+                        file_type = "link"
                     
                     elif msgs.document:
                         try:
@@ -284,7 +284,7 @@ async def delall(bot: Bot, update):
     await update.reply_text("Sucessfully Deleted All Connected Chats From This Group....")
 
 
-@Client.on_message(filters.channel & (filters.video | filters.audio | filters.document) & ~filters.edited, group=0)
+@Client.on_message(filters.channel & (filters.video | filters.link | filters.document) & ~filters.edited, group=0)
 async def new_files(bot: Bot, update):
     """
     A Funtion To Handle Incoming New Files In A Channel ANd Add Them To Respective Channels..
@@ -302,12 +302,12 @@ async def new_files(bot: Bot, update):
             file_caption  = update.caption if update.caption else ""
             file_size = update.video.file_size
 
-        elif update.audio:
-            file_type = "audio"
-            file_id = update.audio.file_id
-            file_name = update.audio.file_name[0:-4]
+        elif update.link:
+            file_type = "link"
+            file_id = update.link.file_id
+            file_name = update.link.file_name[0:-4]
             file_caption  = update.caption if update.caption else ""
-            file_size = update.audio.file_size
+            file_size = update.link.file_size
 
         elif update.document:
             file_type = "document"
