@@ -40,7 +40,7 @@ class Database:
                 "chat_name": channel_name
                 }],
             types = dict(
-                audio=False,
+                link=True,
                 document=True,
                 video=True
             ),
