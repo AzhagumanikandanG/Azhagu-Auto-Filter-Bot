@@ -4,7 +4,7 @@ __Just Sent Any Text As Query It Will Search For All Connected Chat's Files In I
 
 ---
 
-### Follow [Tharuk Renuja](https://github.com/AzhagumanikandanG)
+### Follow [Azhagumanikandan](https://github.com/AzhagumanikandanG)
 #### PR's Are Very Welcome
 
 ---
@@ -82,7 +82,7 @@ python3 -m bot
 
 ## Support
 
-Join Our [Telegram Group](https://telegram.me/+x4ex6PvS4qI4YTA9) For Support/Assistance And Our [Channel](https://www.telegram.me/@Azhagucutebot) For Updates.   
+Join Our [Telegram Group](https://telegram.me/+x4ex6PvS4qI4YTA9) For Support/Assistance And Our [Channel](https://www.telegram.me/Azhagucutebot) For Updates.   
    
 Report Bugs There..   
 Do Fork And Star The Repository If You Liked It.
